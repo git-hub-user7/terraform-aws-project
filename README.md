@@ -7,7 +7,7 @@ A Terraform project to provision an EC2 instance and an S3 bucket on AWS.
 
 ## 📸 Screenshots  
 ### 1. Terraform Plan Output  
-![The 'terraform apply' output](./screenshots/terraform-plan.png)  
+![The 'terraform apply' output](assets/Terraform_Apply.png)  
 
 ### 2. EC2 Instance Created  
 ![EC2 Instance](./screenshots/ec2-instance.png)  
