@@ -10,10 +10,10 @@ A Terraform project to provision an EC2 instance and an S3 bucket on AWS.
 ![The 'terraform apply' output](assets/Terraform_Apply.png)  
 
 ### 2. EC2 Instance Created  
-![EC2 Instance](./screenshots/ec2-instance.png)  
+![EC2 Instance](assets/EC2_Instance.png)  
 
 ### 3. S3 Bucket Created  
-![S3 Bucket](./screenshots/s3-bucket.png)  
+![S3 Bucket](assets/S3_Bucket.png)  
 
 ## 🛠️ Technologies Used  
 - **Terraform**: Infrastructure as Code.  
