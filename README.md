@@ -23,4 +23,7 @@ A Terraform project to provision an EC2 instance and an S3 bucket on AWS.
 ## 🔧 How to Run Locally  
 1. Clone this repository:  
    ```bash  
-   git clone https://github.com/git-hub-user7/terraform-aws-project.git 
+   git clone https://github.com/git-hub-user7/terraform-aws-project.git
+
+👨💻 Author
+**Dhwarakesh Srinivasan**
