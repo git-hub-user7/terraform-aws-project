@@ -12,11 +12,16 @@ This project automates the provisioning of an **EC2 instance** and **S3 bucket**
 - **Security**: Blocked public access to S3 by default.
 
 ## 📂 Repository Structure
-terraform-aws-project/
-├── assets/ # AWS Console & terminal outputs
-├── web-server-files/
-│ └── main.tf # Terraform configuration
-├── README.md # Project documentation
+
+terraform-aws-ec2-s3-project/  
+├── web-server-files/  
+│   └── main.tf  
+├── assets/  
+│   ├── ec2-instance.png  
+│   ├── s3-bucket.png  
+│   └── Terraform-Apply.png    
+└──README.md  
+ 
 
 ## 📸 Screenshots  
 ### 1. The 'terraform apply' output:  
