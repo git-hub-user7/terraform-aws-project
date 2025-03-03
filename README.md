@@ -1,12 +1,24 @@
-# 🚀 Automating AWS Infrastructure with Terraform  
+# 🚀 Automated AWS Infrastructure with Terraform
 
-[![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io)  
-[![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com)  
+[![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io)
+[![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com)
 
-A Terraform project to provision an EC2 instance and an S3 bucket on AWS.  
+This project automates the provisioning of an **EC2 instance** and **S3 bucket** on AWS using Terraform, demonstrating Infrastructure as Code (IaC) skills.
+
+## 🛠️ Features
+- **EC2 Instance**: Deployed a t2.micro instance (free-tier eligible) with Amazon Linux 2.
+- **S3 Bucket**: Created a private S3 bucket with secure ACL settings.
+- **Cost Optimization**: Leveraged AWS Free Tier to minimize costs.
+- **Security**: Blocked public access to S3 by default.
+
+## 📂 Repository Structure
+terraform-aws-project/
+├── code/
+│ └── main.tf # Terraform configuration
+├── assets/ # AWS Console & terminal outputs
 
 ## 📸 Screenshots  
-### 1. Terraform Plan Output  
+### 1. The 'terraform apply' output:  
 ![The 'terraform apply' output](assets/Terraform_Apply.png)  
 
 ### 2. EC2 Instance Created  
@@ -24,6 +36,8 @@ A Terraform project to provision an EC2 instance and an S3 bucket on AWS.
 1. Clone this repository:  
    ```bash  
    git clone https://github.com/git-hub-user7/terraform-aws-project.git
+
+   cd terraform-aws-ec2-s3-project/code
 
 2. Initialize Terraform:
 
@@ -43,7 +57,8 @@ terraform apply
 ```bash
 terraform destroy
 ```
-## Key Learnings
+
+## 📝 Key Learnings
 
 Infrastructure as Code (IaC) with Terraform.
 
@@ -52,6 +67,7 @@ AWS resource provisioning (EC2, S3).
 Security best practices (private S3 buckets).
 
 Cost optimization using AWS Free Tier.
+
 
 ## 🔜 Future Improvements
 
