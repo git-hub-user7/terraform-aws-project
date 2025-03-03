@@ -13,6 +13,7 @@ This project automates the provisioning of an **EC2 instance** and **S3 bucket**
 
 ## 📂 Repository Structure
 
+```
 terraform-aws-ec2-s3-project/  
 ├── web-server-files/  
 │   └── main.tf  
@@ -21,7 +22,7 @@ terraform-aws-ec2-s3-project/
 │   ├── s3-bucket.png  
 │   └── Terraform-Apply.png    
 └──README.md  
- 
+ ```
 
 ## 📸 Screenshots  
 ### 1. The 'terraform apply' output:  
