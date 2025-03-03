@@ -25,5 +25,43 @@ A Terraform project to provision an EC2 instance and an S3 bucket on AWS.
    ```bash  
    git clone https://github.com/git-hub-user7/terraform-aws-project.git
 
+2. Initialize Terraform:
+
+```bash
+terraform init
+```
+
+3. Plan & Deploy:
+
+```bash
+terraform plan
+terraform apply
+```
+
+4. Clean Up (Avoid Costs):
+
+```bash
+terraform destroy
+```
+## Key Learnings
+
+Infrastructure as Code (IaC) with Terraform.
+
+AWS resource provisioning (EC2, S3).
+
+Security best practices (private S3 buckets).
+
+Cost optimization using AWS Free Tier.
+
+## 🔜 Future Improvements
+
+Add a CI/CD pipeline with GitHub Actions.
+
+Implement remote state management using AWS S3.
+
+Use variables for dynamic configurations.
+
+
+
 👨💻 Author  
   **Dhwarakesh Srinivasan**
