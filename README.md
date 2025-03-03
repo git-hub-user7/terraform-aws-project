@@ -13,9 +13,10 @@ This project automates the provisioning of an **EC2 instance** and **S3 bucket**
 
 ## 📂 Repository Structure
 terraform-aws-project/
-├── code/
-│ └── main.tf # Terraform configuration
 ├── assets/ # AWS Console & terminal outputs
+├── web-server-files/
+│ └── main.tf # Terraform configuration
+├── README.md # Project documentation
 
 ## 📸 Screenshots  
 ### 1. The 'terraform apply' output:  
